@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReportGrape 🍇 - Sistema de Reporte</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="A.js">
+</head>
+<body>
+    <header>
+        <div id="welcome">BIENVENIDO A REPORTGRAPE 🍇</div>
+    </header>
+    <form id="file-form">
+        <label for="file-upload" style="cursor: pointer;" class="subir">Subir Archivo</label>
+        <input type="file" id="file-upload" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+    </form>
+
+    <button id="generate-report" onclick="generateReport()">Generar Reporte</button>
+    <button id="remove-report" onclick="removeReport()">Quitar</button>
+
+    <div id="report-text"></div>
+    <script src="A.js"></script>
+</body>
+
+</html>
