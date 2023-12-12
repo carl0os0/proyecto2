@@ -104,3 +104,11 @@ body {
     display: none;
 }
 
+.logo{
+    display: flex;
+    justify-content: center;
+    column-gap: 50;
+    margin-bottom: 50px;
+
+}
+
